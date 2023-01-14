@@ -10,6 +10,30 @@ export const renderHero = (gender) => {
 
     hero.className = `hero hero__${gender}` 
 
+    const container = createElement('div', {
+        className: 'container'
+    },
+    {
+        parent: hero,
+    });
+    const genderContent = createElement('div', {
+        className: 'hero__content'
+    },
+    {
+        parent: container,
+    });
+    const genderTitle = createElement('h2', {
+        className: 'hero__title'
+    },
+    {
+        parent: genderContent,
+    });
+    const genderLink = createElement('a', {
+        className: 'hero__link'
+    },
+    {
+        parent: genderTitle,
+    });
 
     hero.innerHTML = `
     <div class="container">
