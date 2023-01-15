@@ -1,4 +1,3 @@
-import { DATA } from "../const";
 import { createElement } from "../createElement";
 
 export const renderNavigation = (gender) => {

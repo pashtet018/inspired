@@ -49,7 +49,7 @@ createElement(
 },
 {
     parent: container
-});
+})
 
 const nav = createElement('div', {
     className: 'header__navigation',
