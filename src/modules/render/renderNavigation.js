@@ -1,5 +1,5 @@
-import { createElement } from "../createElement";
 import { DATA } from "../const";
+import { createElement } from "../createElement";
 
 export const renderNavigation = (gender) => {
     const navigation = document.querySelector('.navigation')
