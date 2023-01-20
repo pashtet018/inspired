@@ -24,7 +24,7 @@ const heroLink = createElement('a', {
   textContent: 'Перейти'
 },
 {
-  parent: content
+  parent: content,
 },);
 
 export const renderHero = (gender) => {

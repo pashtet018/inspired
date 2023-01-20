@@ -1,0 +1,48 @@
+.pagination {
+    display: flex;
+    position: relative;
+    background-position: center;
+
+    &__item {
+    align-items: center;
+    padding: 0 19px;
+    width: 7px;
+    height: 17px;
+    left: 4px;
+    color: $main-color;
+    }
+    &__link {
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: $gray;
+        }
+    }
+    &_active {
+        border-color: $main-color;
+        pointer-events: none;
+    }
+    &_arrow
+    {
+    &_start {
+        text-align: left;
+        height: 5px;
+        width: 8px;
+        left: 14px;
+        top: 16px;
+        border-radius: 0px;
+
+        background-image: url('../img/start.svg');
+    }
+    &_disabled {
+        text-align: right;
+        height: 5px;
+        width: 8px;
+        left: 10px;
+        top: 16px;
+        border-radius: 0px;
+
+        background-image: url('../img/end.svg');
+    }
+}
+}
