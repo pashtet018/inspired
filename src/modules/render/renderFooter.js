@@ -1,16 +1,15 @@
-import { DATA } from "../const";
-import { createElement } from "../createElement";
+import { DATA, footer } from "../const";
+import { createElement } from "../utils/createElement";
 
-export const renderFooter = (gender) => {
-  const navigation = document.querySelector('.footer');
+export const renderFooter = () => {
   
-  navigation.textContent=''
+  footer.textContent=''
   
   const container = createElement('div', {
     className: 'container',
 },
 {
-    parent: navigation,
+    parent: footer,
 },
 );
 const footerContainer = createElement('div', 
