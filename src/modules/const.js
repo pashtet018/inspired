@@ -1,6 +1,6 @@
 export const COUNT__PAGINATION = 3;
 export const DATA = {};
-export const API_URL = 'http://localhost:8024';
+export const API_URL = 'https://pretty-four-dianella.glitch.me';
 export const TITLE = {
     women: {
         title: 'Новая коллекция Бюстгальтер-балконет ', 
@@ -17,6 +17,10 @@ export const main = document.querySelector('main');
 export const hero = document.querySelector('.hero');
 export const products = document.querySelector('.goods');
 export const footer = document.querySelector('.footer');
+export const card = document.querySelector('.card');
+export const cart = document.querySelector('.cart');
+export const order = document.querySelector('.order');
+
 
 
 
